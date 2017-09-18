@@ -78,9 +78,9 @@
 //#define STACK_USE_SNMPV3_SERVER			// Simple Network Management Protocol v3 Agent
 //#define STACK_USE_TFTP_CLIENT			// Trivial File Transfer Protocol client
 //#define STACK_USE_GENERIC_TCP_CLIENT_EXAMPLE	// HTTP Client example in GenericTCPClient.c
-#define STACK_USE_LED_TCP_SERVER_EXAMPLE	// ToUpper server example in GenericTCPServer.c
-#define STACK_USE_GENERIC_TCP_SERVER_EXAMPLE	// ToUpper server example in GenericTCPServer.c
-#define STACK_USE_TELNET_SERVER			// Telnet server
+//#define STACK_USE_LED_TCP_SERVER_EXAMPLE	// ToUpper server example in GenericTCPServer.c
+//#define STACK_USE_GENERIC_TCP_SERVER_EXAMPLE	// ToUpper server example in GenericTCPServer.c/
+//#define STACK_USE_TELNET_SERVER			// Telnet server
 #define STACK_USE_ANNOUNCE				// Microchip Embedded Ethernet Device Discoverer server/client
 //#define STACK_USE_DNS					// Domain Name Service Client for resolving hostname strings to IP addresses
 //#define STACK_USE_DNS_SERVER			// Domain Name Service Server for redirection to the local device
@@ -152,7 +152,7 @@
  
 // KF: start 
 //#define MY_DEFAULT_HOST_NAME			"MCHPBOARD"
-#define MY_DEFAULT_HOST_NAME			"mx79"
+#define MY_DEFAULT_HOST_NAME			"mxD6"
 
 //#define MY_DEFAULT_MAC_BYTE1            (0x00)	// Use the default of 00-04-A3-00-00-00
 //#define MY_DEFAULT_MAC_BYTE2            (0x04)	// if using an ENCX24J600, MRF24WB0M, or
@@ -165,13 +165,13 @@
 #define MY_DEFAULT_MAC_BYTE2            (0x18)	// 
 #define MY_DEFAULT_MAC_BYTE3            (0x3E)	//  
 #define MY_DEFAULT_MAC_BYTE4            (0x01)	//  
-#define MY_DEFAULT_MAC_BYTE5            (0x11)	// 
-#define MY_DEFAULT_MAC_BYTE6            (0x79)	// 
+#define MY_DEFAULT_MAC_BYTE5            (0xAD)	// 
+#define MY_DEFAULT_MAC_BYTE6            (0xD6)	// 
 
 #define MY_DEFAULT_IP_ADDR_BYTE1        (192ul)
 #define MY_DEFAULT_IP_ADDR_BYTE2        (168ul)
 #define MY_DEFAULT_IP_ADDR_BYTE3        (1ul)
-#define MY_DEFAULT_IP_ADDR_BYTE4        (79ul)
+#define MY_DEFAULT_IP_ADDR_BYTE4        (214ul)
 
 #define MY_DEFAULT_MASK_BYTE1           (255ul)
 #define MY_DEFAULT_MASK_BYTE2           (255ul)
@@ -181,12 +181,12 @@
 #define MY_DEFAULT_GATE_BYTE1           (192ul)
 #define MY_DEFAULT_GATE_BYTE2           (168ul)
 #define MY_DEFAULT_GATE_BYTE3           (1ul)
-#define MY_DEFAULT_GATE_BYTE4           (79ul)
+#define MY_DEFAULT_GATE_BYTE4           (214ul)
 
 #define MY_DEFAULT_PRIMARY_DNS_BYTE1		(192ul)
 #define MY_DEFAULT_PRIMARY_DNS_BYTE2		(168ul)
 #define MY_DEFAULT_PRIMARY_DNS_BYTE3		(1ul)
-#define MY_DEFAULT_PRIMARY_DNS_BYTE4		(79ul)
+#define MY_DEFAULT_PRIMARY_DNS_BYTE4		(214l)
 
 #define MY_DEFAULT_SECONDARY_DNS_BYTE1	(0ul)
 #define MY_DEFAULT_SECONDARY_DNS_BYTE2	(0ul)
