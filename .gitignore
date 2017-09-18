@@ -1,0 +1,7 @@
+# Ignore build, debug, and dist folders
+TCPIP/Demo\ App/XC32-PIC32_ETH_SK_ETH795.X/build
+TCPIP/Demo\ App/XC32-PIC32_ETH_SK_ETH795.X/debug
+TCPIP/Demo\ App/XC32-PIC32_ETH_SK_ETH795.X/dist
+
+# Ignore nbproject/private folder
+TCPIP/Demo\ App/XC32-PIC32_ETH_SK_ETH795.X/nbproject/private
